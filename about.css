@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	background-image:url("images/about1.png");
+}
+.about-section {
+  padding: 0px;
+  text-align: center;
+}
+.top-nav-right{
+	float:right;
+	overflow:hidden;
+}
+.footer{
+	
+	color:white;
+	text-align:center;
+	padding-top:10px;
+}
+.carousel-inner{
+	height:500px;
+	padding-bottom:100px;
+}
+@media screen and (max-width:800px){
+	.carousel-inner{
+	height:200px;
+	padding-bottom:100px;
+}
+}
+.container-fluid{
+	color:#132540;
+	background-color:white;
+}
+a{
+	color:#132540;
+	text-decoration:none;
+}
+.container-h{
+padding-top:50px;
+margin-left:200px;}
+.container-body{
+color:white;}
+
+
+.icon-bar{
+	background-color:#132540;
+}
+.container-xs{
+	display:none;
+}
+
+@media screen and (max-width:800px){
+.container-xs{
+	display: block;
+        
+        margin: 10px auto 5px 20px;
+	font-family:Helvetica;
+	color:#132540;
+}
+}
+@media screen and (max-width:800px){
+.container-h{
+	visibility:hidden;
+	
+	display:none;
+}
+}
+@media screen and (max-width:800px){
+
+body{
+	background-image:none;
+}
+}
+@media screen and (max-width:800px){
+.footer{
+	
+	color:black;
+	text-align:center;
+	padding-top:10px;
+}
+}
